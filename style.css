@@ -1,0 +1,51 @@
+table 
+{
+    border-collapse:collapse;
+    width:500px;
+    height: 500px;
+    margin:0 auto;   
+}
+
+td {
+    width:50px;
+    height:50px;
+    border:1px solid #555;
+    cursor:pointer; 
+    text-align: center;
+     
+} 
+
+:before
+{
+    font-size:2.5em;
+    line-height: normal;
+}
+.cross:before 
+{
+    content:"x";
+    color:blue;
+}
+.circle:before
+{
+    content:"o";
+    color:red;
+} 
+
+.reset {
+    background:aqua;
+    padding:5px 10px;
+    color:green;
+    cursor:pointer;
+    font-family:"Roboto", Arial, sans-serif;
+    text-transform:uppercase;
+    margin: 0px auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+  
+
+
+
+
+
